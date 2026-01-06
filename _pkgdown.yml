@@ -33,6 +33,12 @@ reference:
 - title: Fast Fourier Transform (FFT)
   desc: Functions for Fast Fourier Transform (FFT) of a series of temperatures
   contents:
+  - fft_tab
+  - fft_roll
+  - fft_ratio
+- title: Fast Fourier Transform (FFT) base
+  desc: Base functions for Fast Fourier Transform (FFT) of a series of temperatures
+  contents:
   - fft_rfft
   - fft_freq
   - fft_period
@@ -42,15 +48,20 @@ reference:
   - fft_variance
   - fft_delay
   - fft_reconstruct
-  - fft_tab
-  - fft_roll
-  - fft_ratio
 
 articles:
 
-- title: Tests
-  navbar: Tests
+- title: Principle
+  navbar: Principle
   contents:
-  - '`example`'
-  - '`fft`'
-  - '`fft2`'
+  - '`Maths`'
+
+- title: Examples
+  navbar: Examples
+  contents:
+  - '`Example`'
+
+- title: Others
+  navbar: Others
+  contents:
+  - '`Macroclimate`'

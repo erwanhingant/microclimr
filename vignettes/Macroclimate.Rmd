@@ -1,0 +1,17 @@
+---
+title: "Macroclimate"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Macroclimate}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Summarise/highlight the importance of the macroclimate with Fourier correction based on a comparison between Kourou and Blois.

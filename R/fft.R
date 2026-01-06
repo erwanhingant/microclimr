@@ -425,7 +425,7 @@ fft_roll <- function(
 #'   dplyr::rename(era = tas, datetime = time) %>%
 #'   dplyr::select(datetime, era) %>%
 #'   dplyr::left_join(dplyr::select(hobo, datetime, t_hobo) %>%
-#'                      dplyr::rename(hobo = t_hobo))
+#'     dplyr::rename(hobo = t_hobo))
 #' fft_ratio(data, 24 * 5, "datetime", "hobo", "era") %>%
 #'   dplyr::filter(period == 24) %>%
 #'   summary()

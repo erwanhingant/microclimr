@@ -1,0 +1,17 @@
+---
+title: "Maths"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Maths}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Maths summary and Fourier explanation to be done by Erwan.

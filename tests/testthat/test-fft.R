@@ -17,6 +17,8 @@ test_that("fft", {
     dplyr::select(datetime, era) %>%
     dplyr::left_join(dplyr::select(hobo, datetime, t_hobo) %>%
                        dplyr::rename(hobo = t_hobo))
-  expect_s3_class(fft_ratio(data, 24 * 5, "datetime", "hobo", "era"),
-                  "data.frame")
+  expect_s3_class(
+    fft_ratio(data, 24 * 5, "datetime", "hobo", "era"),
+    "data.frame"
+  )
 })
